@@ -14,7 +14,7 @@ This is a GWU assignment. It's a game that allows for multi-player functionality
 
 - ~~Find png images for the rock, paper, & scissors~~
 - ~~Pseudocode entire JS file~~
-- Create the app full via Frontend/ UI to create connections
+- ~~Create the app full via Frontend/ UI to create connections~~
 - Connect Firebase in game.js
 - Create functionality for the site and connect to html
 - Test and debug 

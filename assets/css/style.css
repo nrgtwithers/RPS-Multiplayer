@@ -59,3 +59,11 @@ h3{
 .scoreOne, .scoreTwo{
     text-align: center;
 }
+
+.messages{
+    background-color: white;
+    color:teal;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}

@@ -1,7 +1,12 @@
 // Viewing purposes JS
+
+// Directions -Collapsible
 $(document).ready(function () {
     $('.collapsible').collapsible();
 });
+//For Text Messages
+$('#textarea1').val('New Text');
+M.textareaAutoResize($('#textarea1'));
 
 // Initialize connection to Firebase
 
