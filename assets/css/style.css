@@ -41,6 +41,7 @@ h1{
 }
 
 .images{
+    justify-content: center;
     margin: auto;
 }
 
