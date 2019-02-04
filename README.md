@@ -12,7 +12,7 @@ This is a GWU assignment. It's a game that allows for multi-player functionality
 
 ### Tasks 
 
--[x] Find png images for the rock, paper, & scissors
+-[x] ~~Find png images for the rock, paper, & scissors~~
 -[x] Pseudocode entire JS file
 -[x] Create the app full via Frontend/ UI to create connections
 -[x] Connect Firebase in game.js
