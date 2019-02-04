@@ -10,17 +10,95 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- Materialize CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Icon CDN -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- jQuery CDN-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- LINK TO FIREBASE GOES HERE -->
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
 </head>
 
 <body>
- <h1>Rock, Paper, Scissors!</h1>
-    <!-- GAME.JS  -->
-    <script type="text/javascript" src="assets/js/game.js"></script>
+    <!-- Header -->
+    <div class="header">
+        <h1>Rock, Paper, Scissors!</h1>
+    </div>
+    <!-- Directions Collapsible Popout -->
+    <div class="directions">
+        <ul class="collapsible popout">
+            <li>
+                <div class="collapsible-header"><i class="material-icons">details</i>Directions</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+
+        </ul>
+    </div>
+    <!-- Players Scores -->
+    <div class="row">
+        <div class="scoresOne">
+            <div class="col s6">
+                <h3>Score for Player One:</h3>
+            </div>
+        </div>
+        <div class="scoreTwo">
+            <div class="col s6">
+                <h3>Score for Player Two:</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Players box -->
+    <div class="row">
+        <div class="col s6">
+            <div class="container">
+                <div class="player">
+                    <h2>Player One</h2>
+                </div>
+                <div class="players-pick">
+                    <img src="assets/images/rock.png" alt="rock" width="200px" height="150px" class="images">
+                </div>
+                <div class="col s4">
+                    <!-- Rock -->
+                    <img src="assets/images/rock.png" alt="rock" width="100px" height="75px" class="images">
+                </div>
+                <div class="col s4">
+                    <!-- Scissor -->
+                    <img src="assets/images/paper.png" alt="paper" width="100px" height="75px" class="images">
+                </div>
+                <div class="col s4">
+                    <!-- Paper -->
+                    <img src="assets/images/scissor.png" alt="scissors" width="100px" height="75px" class="images">
+                </div>
+            </div>
+        </div>
+        <div class="col s6">
+            <div class="container">
+                <div class="player">
+                    <h2>Player Two</h2>
+                </div>
+                <div class="players-pick">
+                    <img src="assets/images/scissor.png" alt="scissors" width="200px" height="150px" class="images">
+                </div>
+                <div class="col s4">
+                    <!-- Rock -->
+                    <img src="assets/images/rock.png" alt="paper" width="100px" height="75px" class="images">
+
+                </div>
+                <div class="col s4">
+                    <!-- Scissor -->
+                    <img src="assets/images/scissor.png" alt="scissors" width="100px" height="75px" class="images">
+
+                </div>
+                <div class="col s4">
+                    <!-- Paper -->
+                    <img src="assets/images/paper.png" alt="paper" width="100px" height="75px"class="images">
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Materialize JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- GAME.JS  -->
+    <script type="text/javascript" src="assets/js/game.js"></script>
 </body>
 
 </html>
